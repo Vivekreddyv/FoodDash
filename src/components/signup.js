@@ -10,7 +10,7 @@ const Signup=()=>{
     const navigate=useNavigate()
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:5000/api/signup", {
+        const response = await fetch("https://fooddash.onrender.com/api/signup", {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
