@@ -1,0 +1,71 @@
+.signup1{
+    background-image: url('https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+}
+.signup2{
+    width: 43vw;
+    height: 21.2rem;
+    border-radius: 5px;
+    margin-top: 3.5%;
+    border: 1.6px solid #00bc8d;
+    background-color: #3c3b3c;
+    padding: 1rem;
+}
+.headingsignup{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.inputsignup{
+    height: 2.4rem;
+    width: 100%;
+    background-color: #232123;
+    color: white;
+    margin-top: 1%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 2%;
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    caret-color: white;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.signupbtn1{
+    margin-top: 4%;
+    width: 5rem;
+    height: 2.5rem;
+    color: black;
+    background-color: #00bc8d;
+    border-radius: 4px;
+    margin-right: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.signupbtn1:hover{
+    transition: all 0.1s;
+    background-color: #13dba9;
+}
+.signupbtn2{
+    margin-top: 4%;
+    width: 8rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #c44134;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.signupbtn2:hover{
+    transition: all 0.1s;
+    background-color: #e02514 ;
+}
